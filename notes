@@ -1,0 +1,8 @@
+to add to git
+
+git init
+git status
+git add .
+git status
+git commit -m "my first commit - admin views create"
+git log
