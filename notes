@@ -9,3 +9,22 @@ git log
 
 adding laravelcollective/html
 use //$composer require laravelcollective/html
+
+
+making controller with it resources
+$ php artisan make:controller --resource AdminPostsController
+
+
+then create model and migration using
+
+$  php artisan make:model Post -m
+
+fix table fields and do migrate
+
+$ php artisan migrate
+
+making request, to valideate post inputs
+
+$ php artisan make:request PostCreateRequest
+
+
