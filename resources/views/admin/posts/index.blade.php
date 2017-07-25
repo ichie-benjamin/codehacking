@@ -35,7 +35,7 @@
 
 {{--                    <td><img height="50" src="{{$user->photo ? $user->photo->file : '/images/sad-128.png'}}"></td>--}}
                     {{--<td><a href="{{route('admin.users.edit', $user->id)}}">{{$user->name}}</a> </td>--}}
-                    <td>{{$post->category_id}}</td>
+                    <td>{{$post->category ? $post->category->name : 'Uncategorized'}}</td>
                     <td>{{$post->title}}</td>
                     <td>{{$post->body}}</td>
 
